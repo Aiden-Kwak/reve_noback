@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.5",
+    "@vercel/analytics": "^1.5.0",
     "EffectComposer": "link:three/examples/jsm/postprocessing/EffectComposer",
     "GLTFLoader": "link:three/examples/jsm/loaders/GLTFLoader",
     "OrbitControls": "link:three/examples/jsm/controls/OrbitControls",

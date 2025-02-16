@@ -2,6 +2,7 @@
 import "./globals.css";
 import NavForm from "@/components/navForm";
 import FooterForm from "@/components/footerForm";
+import { Analytics } from "@vercel/analytics/react"
 /*
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavForm/>
         {children}
+        <Analytics />
         <FooterForm/>
         <div className="fixed-buttons">
           <a
