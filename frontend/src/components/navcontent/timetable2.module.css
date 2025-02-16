@@ -1,0 +1,184 @@
+/* 전체 컨테이너 */
+.container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 그리드 컨테이너 */
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 요일 7개 + 시간대 1개 */
+    gap: 10px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* 헤더 (요일) */
+  .dayHeader {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 시간대 레이블 */
+  .timeSlotLabel {
+    font-weight: bold;
+    color: #555;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeInfo {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  
+  /* 일반 셀 */
+  .cell {
+    min-width: 1rem;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 공백 셀 */
+  .emptyCell {
+    background: none;
+  }
+  
+  /* 클래스별 정보 */
+  .classInfo {
+    margin-top: 20px;
+    text-align: left;
+    font-family: "GowunDodum", sans-serif;
+  }
+  
+  .classInfo h3 {
+    font-size: 1.2rem;
+    color: #7e3b98;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'GowunDodum', sans-serif;
+  }
+  
+  .classInfo ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #555;
+  }
+  
+  .classInfo ul li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  .classInfoContent {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  .pill {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00796b;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, box-shadow 0.2s;
+    margin-bottom: 8px;
+  }
+
+  .balletPill {
+    background-color: #ffe0b2;
+    color: #ef6c00;
+  }
+  
+  .balletPill:hover {
+    background-color: #ffcc80;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 현대무용 pill 스타일 */
+  .modernPill {
+    background-color: #c5e1a5;
+    color: #558b2f;
+  }
+  
+  .modernPill:hover {
+    background-color: #aed581;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 한국무용 pill 스타일 */
+  .koreanPill {
+    background-color: #b39ddb;
+    color: #4527a0;
+  }
+  
+  .koreanPill:hover {
+    background-color: #9575cd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (min-width: 1000px) {
+    .pill {
+        margin-left:8px
+    }
+    .container {
+      padding: 2rem 10rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .gridContainer {
+      gap: 5px;
+      font-size: 0.8rem;
+    }
+  
+    .dayHeader,
+    .cell {
+      padding: 8px;
+      font-size: .65rem;
+    }
+    .timeSlotLabel{
+        padding: 8px;
+        font-size: .6rem;
+    }
+  
+    .timeInfo {
+      font-size: 0.7rem;
+    }
+  
+    .classInfo h3 {
+      font-size: 1rem;
+    }
+
+    .classInfo ul li {
+      font-size: 0.75rem;
+    }
+    .classInfoContent {
+        font-size: 0.75rem;
+    }
+    .pill {
+        padding: 4px 8px;
+        font-size: 0.6rem;
+      }
+  }
+  
