@@ -35,7 +35,7 @@ function PassContent() {
           <p className={styles.passDetail}>가볍게 시작하기 좋아요</p>
           <p className={styles.passDetail}>부담없이 시작하기 좋은 선택!</p>
           <p className={styles.passBuyBtn}>
-            <a href="https://docs.google.com/forms/d/1A7bNkqtgIkMMe0OX4avGoko8U9L52ORVVYT9jcgNJyA/preview" target="_blank" rel="noopener noreferrer">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScevRZJGznV-t0wN7_egGpyfBvg6Ygt8G4mi_FFNqwxbaXw0Q/viewform" target="_blank" rel="noopener noreferrer">
               클래스 신청하기
             </a>
           </p>
@@ -47,7 +47,7 @@ function PassContent() {
           <p className={styles.passDetail}>1회권 대비 8.3% 할인</p>
           <p className={styles.passDetail}>꾸준한 운동으로 건강한 에너지와 <br/>실력을 쌓아가요!</p>
           <p className={styles.passBuyBtn}>
-            <a href="https://docs.google.com/forms/d/1A7bNkqtgIkMMe0OX4avGoko8U9L52ORVVYT9jcgNJyA/preview" target="_blank" rel="noopener noreferrer">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScevRZJGznV-t0wN7_egGpyfBvg6Ygt8G4mi_FFNqwxbaXw0Q/viewform" target="_blank" rel="noopener noreferrer">
               클래스 신청하기
             </a>
           </p>

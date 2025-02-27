@@ -144,7 +144,7 @@ function MainForm() {
         <p>대학생, 직장인을 위한,</p>
         <p>방과후 무용클래스 <span className="/root-color">Rêve</span></p>
         <p className="apply-button">
-          <a href="https://docs.google.com/forms/d/1A7bNkqtgIkMMe0OX4avGoko8U9L52ORVVYT9jcgNJyA/preview" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScevRZJGznV-t0wN7_egGpyfBvg6Ygt8G4mi_FFNqwxbaXw0Q/viewform" target="_blank" rel="noopener noreferrer">
             클래스 신청하기
           </a>
         </p>
